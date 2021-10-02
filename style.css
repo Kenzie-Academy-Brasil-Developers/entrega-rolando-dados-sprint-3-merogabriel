@@ -1,0 +1,20 @@
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), blue);
+}
+
+h1 {
+    color:white
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px){
+    body {
+    background-image: linear-gradient(to right, red, rgba(0, 0, 0, 0.9));
+    }
+    h1 {
+        color: black;
+    }
+}
